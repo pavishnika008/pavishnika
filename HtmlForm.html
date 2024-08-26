@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="name">
+            Enter name
+        </label>
+        <input type="text" id="name" placeholder="Enter Your name" value="" required>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter age" min="10" max="18" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter mail" required>
+        <br>
+        <label for="code">Password</label>
+        <input type="password" id="code" placeholder="Enter password" required>
+        <br>
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" accept=".pdf" required>
+        <br>
+        <label for="photo">Image</label>
+        <input type="image" src="./Artificial-Intelligence-Growth.jpg" height="150px" required>
+        <br>
+        <label for="">Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" required> 
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" required>
+
+        <br>
+        <label for="">Language</label>
+        <br>
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" id="tamil">
+        <label for="english">English</label>
+        <input type="checkbox" id="english">
+        <label for="malayalam">Malayalam</label>
+        <input type="checkbox" id="malayalam">
+        <br>
+        <label for="">Range</label>
+        <input type="range" min="0" max="2" disabled>
+        <br>
+        <select name="" id="" disabled>
+            <option >---select any one---</option>
+            <option selected>Tamil</option>
+            <option value="English">English</option>
+        </select>
+
+        <input type="datetime-local"> 
+        <br>
+        <input type="color">
+        <br>
+        <input type="week">
+
+        <br>
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <!-- <input type="submit" value="save"> -->
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
